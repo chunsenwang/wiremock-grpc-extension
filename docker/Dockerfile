@@ -1,4 +1,4 @@
-FROM wiremock/wiremock:3.13.0
+FROM wiremock/wiremock:3.13.1
 
 COPY wiremock-grpc-extension-standalone/build/libs/wiremock-grpc-extension*.jar /var/wiremock/extensions/
 
